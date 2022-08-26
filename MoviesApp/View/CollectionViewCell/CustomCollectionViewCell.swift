@@ -26,7 +26,6 @@ class CustomCollectionViewCell: UICollectionViewCell {
            DispatchQueue.main.async {
                do {
                    let data = try Data.init(contentsOf: URL.init(string: String(url))!)
-                   self.textLabel.text = url
                    self.moviesImageView.image = UIImage(data: data)
                }
                catch {
