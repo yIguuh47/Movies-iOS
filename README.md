@@ -15,9 +15,8 @@ App de Filmes feito com AutoLayout e Storyboard, utilizando CollectionView Horiz
 
 # Interface
 <p align="center">
-<img src="" width="250px"/>
-<img src="" width="250px"/>
-<img src="" width="250px"/>
+<img src="https://user-images.githubusercontent.com/74266068/187296590-76f9b62b-0870-4189-b368-f233194865b1.jpeg" width="250px"/>
+<img src="https://user-images.githubusercontent.com/74266068/187296598-475687ac-1bc0-4702-af63-99bf4389e505.jpeg" width="250px"/>
 </p>
 
 # Tecnologias
