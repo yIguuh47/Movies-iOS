@@ -23,10 +23,12 @@ class CustomCollectionViewCell: UICollectionViewCell {
     }
     
     func didConvertImageUrl(url: String) {
-           DispatchQueue.main.async {
+           DispatchQueue.global().async {
                do {
                    let data = try Data.init(contentsOf: URL.init(string: String(url))!)
-                   self.moviesImageView.image = UIImage(data: data)
+                   DispatchQueue.main.async {
+                       self.moviesImageView.image = UIImage(data: data)
+                   }
                }
                catch {
                    print("Erro image\(url)")
